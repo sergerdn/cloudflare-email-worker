@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-email-worker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:sergerdn/cloudflare-email-worker.git",
+  "author": "sergerdn <64213648+sergerdn@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler start"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.4"
+  },
+  "dependencies": {
+    "postal-mime": "^2.0.2"
+  }
+}
